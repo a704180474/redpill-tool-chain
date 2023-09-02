@@ -28,9 +28,6 @@ jobs:
           - platform: ds920p
             version: 7.1.0-42661
 
-          - platform: dva3221
-             version: 7.0.1-42218
-
     steps:
       - name: 检出项目文件
         uses: actions/checkout@v3
